@@ -1,0 +1,24 @@
+# Real-Time E-Commerce Event Streaming Pipeline
+# Python dependencies
+
+# ---------------------
+# Apache Kafka Client
+# kafka-python-ng is the actively maintained fork of kafka-python.
+# It fixes compatibility issues with Python 3.12+ and newer Kafka brokers.
+# ---------------------
+kafka-python-ng==2.2.3
+
+# ---------------------
+# PySpark (Structured Streaming)
+# ---------------------
+pyspark==3.5.1
+
+# ---------------------
+# MySQL Connector (Python-native, used by mysql_sink.py)
+# ---------------------
+mysql-connector-python==8.3.0
+
+# ---------------------
+# Utilities
+# ---------------------
+python-dotenv==1.0.1     # Optional: load .env file for secrets
